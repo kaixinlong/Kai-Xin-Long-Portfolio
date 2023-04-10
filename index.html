@@ -5,7 +5,12 @@
     <title>Web Page Design</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-    body {
+    
+    * {box-sizing: border-box}
+
+    /*Set height of body and the document to 100% */
+    body ,html {
+      height:100%;
       font-family: Arial, Helvetica, sans-serif;
       margin: 0;
     }
@@ -49,10 +54,57 @@
       background-color: #ddd;
       color: black;
     }
+
+    /* Column container */
+    .row {  
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+    .side {
+      flex: 40%;
+      background-color: #f1f1f1;
+      padding: 20px;
+    }
+
+    /* Main column */
+    .main {   
+      flex: 60%;
+      background-color: white;
+      padding: 20px;
+    }
+
+    /* Fake image, just for this example */
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 700px) {
+      .row {   
+        flex-direction: column;
+      }
+    }
+
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+      .navbar a {
+        float: none;
+        width:100%;
+      }
+    }
     </style>
   </head>
                         
   <body>
+
+    <div style="background:rgba(93, 166, 214, 0.932);padding:5px">
+      <h4 style="text-align:center">Resize the browser window to see the responsive effect.</h4>
+    </div>
 
     <div class= "header">
 
@@ -64,10 +116,10 @@
       </div>
 
       <div class= "navbar">
-        <a href="#about.html">About</a> |
-        <a href="#project">Project</a> |
-        <a href="#contact">Contact</a> |
-        <a href="#reflection" class="right">Reflection</a> |
+        <a href="#about.html">About Me</a> 
+        <a href="#project">Project</a> 
+        <a href="#contact">Contact</a> 
+        <a href="#reflection" class="right">Reflection</a> 
       </div>
 
   </body>
