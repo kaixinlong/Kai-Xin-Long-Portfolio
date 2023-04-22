@@ -61,3 +61,140 @@
     #contact img {
         padding: 0px 10px;
     }
+
+
+
+    @media (max-width: 1280px) {
+        body {
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+          }
+        
+        header {
+            background:rgba(93, 166, 214, 0.932);
+            text-align: center;
+            padding:5px;
+        }
+    
+        section {
+            text-align: center;
+        }
+    
+        #homepage img {
+            max-width: 100%;
+            height: auto;
+        }
+    
+        #summary {
+            text-align: left;
+            padding: 0px 100px;
+    
+        }
+    
+        #experience {
+            text-align: left;
+            padding: 0px 100px;
+    
+        }
+    
+        #education {
+            text-align: left;
+            padding: 0px 100px;
+    
+        }
+    
+        #skills {
+            text-align: left;
+            padding: 0px 100px;
+    
+        }
+    
+        #project img {
+            width: 500px;
+        }
+    
+        #contact {
+            text-align: left;
+            padding: 0px 250px;
+        }
+    
+        #contact a {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+    
+        #contact img {
+            padding: 0px 10px;
+        }
+    
+    }
+    
+    @media (max-width: 800px) {
+        
+        /*Set font-size and font-family of body */
+        body {
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+        
+        header {
+            background:rgba(93, 166, 214, 0.932);
+            text-align: center;
+            padding:5px;
+        }
+    
+        section {
+            text-align: center;
+        }
+    
+        #homepage img {
+            max-width: 100%;
+            height: auto;
+        }
+    
+        #summary {
+            text-align: left;
+            padding: 0px 50px;
+    
+        }
+    
+        #experience {
+            text-align: left;
+            padding: 0px 50px;
+    
+        }
+    
+        #education {
+            text-align: left;
+            padding: 0px 50px;
+    
+        }
+    
+        #skills {
+            text-align: left;
+            padding: 0px 50px;
+    
+        }
+    
+        #project img {
+            width: 250px;
+        }
+    
+        #contact {
+            text-align: left;
+            padding: 0px 50px;
+        }
+    
+        #contact a {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+    
+        #contact img {
+            padding: 0px 10px;
+        }
+    
+    }
