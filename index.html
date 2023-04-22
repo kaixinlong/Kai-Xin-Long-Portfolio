@@ -1,82 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset=UTF-8">
-    <title>Web Page Design</title>
+    <meta charset="utf-8">
+    <title>Kai Xin Long Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    
-    /*Set height of body and the document to 100% */
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0;
-    }
-
-    /* Style the header */
-    .header {
-      padding: 80px;
-      text-align: center;
-      background: #ade0f5;
-      color: white;
-    }
-
-    /* Increase the font size of the h1 element */
-    .header h1 {
-      font-size: 40px;
-    }
-
-    /* Style the top navigation bar */
-    .navbar {
-      overflow: hidden;
-      background-color: #163c42;
-    }
-
-    /* Style the navigation bar links */
-    .navbar a {
-      float: left;
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 20px;
-      text-decoration: none;
-    }
-
-    /* Right-aligned link */
-    .navbar a.right {
-      float: right;
-    }
-
-    /* Change color on hover */
-    .navbar a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-
-    </style>
+    <link rel="stylesheet" href="style.css"> <!-- include external css to current page -->
   </head>
                         
   <body>
-
-    <div style="background:rgba(93, 166, 214, 0.932);padding:5px">
-      <h4 style="text-align:center">Resize the browser window to see the responsive effect.</h4>
-    </div>
-
-    <div class= "header">
-
+    <header>
       <h1>Kai Xin Long Portfolio</h1>
       <p>This is the first assignment of Unit ISYS3004 Business Web and Mobile Technologies .</p>
-
       <p>The portfolio website should include home, about, project, contact, and reflection page. </p>
-
-      </div>
-
-      <div class= "navbar">
+      
+      <nav>
+        <a href="index.html">Home Page</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
         <a href="about.html">About Me</a> 
-        <a href="#project">Project</a> 
-        <a href="#contact">Contact Me</a> 
-        <a href="#reflection" class="right">Reflection</a> 
-      </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="project.html">Project</a> 
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="contact.html">Contact Me</a> 
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="reflection.html">Reflection</a> 
+     </nav>
+  </header>
+
+
+
+    <section id="homepage">
+      <img src=".\image\hp1.png"><br />
+      <img src=".\image\hp2b.png"><br />
+    </section>
+    <section id="social">
+      <h2>Social Media :</h2>
+      <a href="https://www.instagram.com/kaixinlong/"><img src=".\image\ig.png" width="350px"></a><br>
+      <P>Follow me on Social @ instagram</P>
+      <a href="https://www.instagram.com/kaixinlong/"><p>https://www.instagram.com/kaixinlong</p></a>
+    </section>
+
+
 
   </body>
 </html> 
-

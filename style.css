@@ -1,0 +1,63 @@
+    body {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+    
+    header {
+        background:rgba(93, 166, 214, 0.932);
+        text-align: center;
+        padding:5px;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    #homepage img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #summary {
+        text-align: left;
+        padding: 0px 250px;
+
+    }
+
+    #experience {
+        text-align: left;
+        padding: 0px 250px;
+
+    }
+
+    #education {
+        text-align: left;
+        padding: 0px 250px;
+
+    }
+
+    #skills {
+        text-align: left;
+        padding: 0px 250px;
+
+    }
+
+    #project img {
+        width: 500px;
+    }
+
+    #contact {
+        text-align: left;
+        padding: 0px 400px;
+    }
+
+    #contact a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #contact img {
+        padding: 0px 10px;
+    }
